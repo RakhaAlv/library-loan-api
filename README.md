@@ -1,6 +1,13 @@
 # Library Loan API
 
-REST API sederhana untuk pencatatan **peminjaman buku perpustakaan**, dibuat untuk memenuhi tugas Responsi Modul 1 PPB 2026.
+REST API sederhana untuk pencatatan **peminjaman buku perpustakaan**, dibuat untuk memenuhi tugas Responsi PPB 2026.
+
+**Identitas:**
+- Nama: Rakha Aljiva Prabaswara
+- NIM: 21120124140126
+- Kelompok: 9
+- Modul: 1
+- Mata Kuliah: Praktikum PPB 2026
 
 ## 1. Deskripsi Umum & Tujuan Proyek
 
@@ -59,7 +66,7 @@ GET /loans?status=Terlambat
   "data": [
     {
       "id": 2,
-      "member_name": "Siti Aminah",
+      "member_name": "Gibran Pinto",
       "book_title": "Bumi Manusia",
       "loan_date": "2026-09-20",
       "due_date": "2026-10-04",
@@ -79,7 +86,7 @@ POST /loans
 Content-Type: application/json
 
 {
-  "member_name": "Andi Wijaya",
+  "member_name": "Prabowo Widodo",
   "book_title": "Negeri 5 Menara",
   "loan_date": "2026-10-05",
   "due_date": "2026-10-19"
@@ -92,7 +99,7 @@ Content-Type: application/json
   "success": true,
   "data": {
     "id": 3,
-    "member_name": "Andi Wijaya",
+    "member_name": "Prabowo Widodo",
     "book_title": "Negeri 5 Menara",
     "loan_date": "2026-10-05",
     "due_date": "2026-10-19",
@@ -122,7 +129,7 @@ Content-Type: application/json
   "success": true,
   "data": {
     "id": 3,
-    "member_name": "Andi Wijaya",
+    "member_name": "Prabowo Widodo",
     "book_title": "Negeri 5 Menara",
     "loan_date": "2026-10-05",
     "due_date": "2026-10-19",
@@ -162,8 +169,8 @@ Content-Type: application/json
 
 1. Clone repository
    ```bash
-   git clone https://github.com/<username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/RakhaAlv/library-loan-api.git
+   cd library-loan-api
    ```
 
 2. Install dependencies
@@ -210,8 +217,8 @@ Konfigurasi routing untuk Vercel sudah disediakan pada `vercel.json` dan entry p
 
 ### Link Deployment
 
-- **Base URL (Vercel)**: `<ISI_DENGAN_URL_VERCEL_ANDA_SETELAH_DEPLOY>`
-- **Repository GitHub**: `<ISI_DENGAN_LINK_REPO_ANDA>`
+- **Base URL (Vercel)**: https://library-loan-api-five.vercel.app
+- **Repository GitHub**: https://github.com/RakhaAlv/library-loan-api
 
 ## 7. Struktur Folder
 
